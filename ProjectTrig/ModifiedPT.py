@@ -37,9 +37,11 @@ def Pythagram():
         print('Hypotenuse:', answer)
         print('Hypotenuse:', answer)
     elif hypo == 'yes' and oppo == 'No':
-        answeTriger = math.sqrt(list2[1]*list2[1] - list2[0]*list2[0])
-        print('Opposite:', list2[0])
-        print('Adjacent:', answer)
+        ans
+    print(list1)
+    print(oppo)
+    print(hypo)
+    print(adj)int('Adjacent:', answer)
         print('Hypotenuse:', list2[1])
     else:
         print('Error Please Try Again.')
