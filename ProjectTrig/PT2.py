@@ -6,6 +6,7 @@ def Trig(opposite, hypotenuse, adjacent):
     oppo = 'No'
     adj = 'No'
 
+<<<<<<< HEAD
     for i in list1:
         if i == 0:
             list1.remove(i)
@@ -27,7 +28,16 @@ def Trig(opposite, hypotenuse, adjacent):
     print(hypo)
     print(adj)
 '''
+=======
+    if opposite > 0:
+        oppo = 'yes'
+    if hypotenuse > 0:
+        hypo = 'yes'
+    if adjacent > 0:
+        adj = 'yes'
+>>>>>>> 1eb772bcaf5591506d51e4d470496dd8953e6130
     if hypo == 'No':
+        
         answer = math.sqrt(list1[0]*list1[0] + list1[1]*list1[1])
         print('Opposite:', list1[0])
         print('Adjacent:', list1[1])
@@ -43,10 +53,4 @@ def Trig(opposite, hypotenuse, adjacent):
         print('Opposite:', list1[0])
         print('Adjacent:', answer)
         print('Hypotenuse:', list1[1])
-'''
 Trig(20,30,0)
-
-
-
-
-
