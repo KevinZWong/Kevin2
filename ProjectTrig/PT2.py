@@ -6,6 +6,10 @@ def Trig(opposite, hypotenuse, adjacent):
     oppo = 'No'
     adj = 'No'
 
+    for i in list1:
+        if i == 0:
+            list1.remove(i)
+
     print(list1)
     print(oppo)
     print(hypo)
